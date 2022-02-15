@@ -37,8 +37,18 @@ deleteCards.addEventListener('click', e => {
 })
 
 save.addEventListener('click', e => {
-	answer.value.trim() === '' ? answer.classList.add("valueEmpty") : answer.classList.remove("valueEmpty");
-	quastion.value.trim() === '' ? quastion.classList.add("valueEmpty") : quastion.classList.remove("valueEmpty");
+	if(answer.value.trim() === '') {
+		answer.classList.add("valueEmpty");
+	}
+	else {
+		answer.classList.remove("valueEmpty");
+	}
+	if(quastion.value.trim() === '') {
+		quastion.classList.add("valueEmpty");
+	}
+	else {
+		quastion.classList.remove("valueEmpty");
+	}
 	if (answer.value.trim() !== '' && quastion.value.trim() !== '') {
 		allCards.push({"quastion": quastion.value, "answer":  answer.value});
 		localStorage.setItem('cards', JSON.stringify(allCards));

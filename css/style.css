@@ -71,16 +71,13 @@ body {
 	font-size: 20px;
 	user-select: none;
 }
-.cardCreateFieldOpened textarea {
+.inputField {
 	margin: 2px 0;
 	padding: 5px;
 	resize: none;
 	font-size: 18px;
 	border: 2px solid black;
 	border-radius: 5px;
-}
-.valueEmpty {
-	border: 2px solid red;
 }
 .buttonsField {
 	user-select: none;
@@ -134,4 +131,7 @@ body {
 	backdrop-filter: blur(1px);
 	pointer-events: none;
 	font-size: 28px;
+}
+.valueEmpty {
+	border: 2px solid red;
 }
