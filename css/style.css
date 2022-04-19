@@ -23,13 +23,13 @@ body {
 	box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, .1);
 	user-select: none;
 }
-.headerTitle {
+.header_title {
 	margin: 10px;
 	font-size: 36px;
 	letter-spacing: 1px;
 	color: #fff;
 }
-.header button, .buttonsField button {
+.header button, .buttons_field button {
 	padding: 5px 10px;
 	border: 2px solid #333;
 	border-radius: 5px;
@@ -41,7 +41,7 @@ body {
 .header button {
 	margin: 10px;
 }
-.header button:hover, .buttonsField button:hover {
+.header button:hover, .buttons_field button:hover {
 	transition: .5s;
 	background-color: rgba(0, 0, 0, .2);
 }
@@ -49,10 +49,10 @@ body {
 	width: 100%;
 	flex-direction: column;
 }
-.cardCreateField {
+.card_create_field {
 	display: none;
 }
-.cardCreateFieldOpened {
+.card_create_field_opened {
 	width: 400px;
 	display: flex;
 	flex-direction: column;
@@ -66,12 +66,12 @@ body {
 	font-size: 36px;
 	user-select: none;
 }
-.inputTitle {
+.input_title {
 	margin-top: 10px;
 	font-size: 20px;
 	user-select: none;
 }
-.inputField {
+.input_field {
 	margin: 2px 0;
 	padding: 5px;
 	resize: none;
@@ -79,14 +79,14 @@ body {
 	border: 2px solid black;
 	border-radius: 5px;
 }
-.buttonsField {
+.buttons_field {
 	user-select: none;
 	padding: 5px 5px 0 0;
 }
-.buttonsField button {
+.buttons_field button {
 	margin: 5px 10px 0 0;
 }
-.cardsField {
+.cards_field {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -103,7 +103,7 @@ body {
 	background-color: #fff;
 	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .2);
 }
-.quastionCard {
+.quastion_card {
 	width: 100%;
 	margin: 20px 0;
 	border-top: 3px solid red;
@@ -113,10 +113,10 @@ body {
 	word-wrap: break-word;
 	pointer-events: none;
 }
-.answerCardClosed {
+.answer_card_closed {
 	display: none;
 }
-.answerCard {
+.answer_card {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -132,6 +132,6 @@ body {
 	pointer-events: none;
 	font-size: 28px;
 }
-.valueEmpty {
+.value_empty {
 	border: 2px solid red;
 }
